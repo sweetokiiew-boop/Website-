@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    
+    <!-- SEO DOMINATION -->
+    <title>FAK OFFICIAL | #1 Cyber Toolkit & AI Hub by Faizan Khichi</title>
+    
+    <meta name="description" content="The #1 Cyber Toolkit by Faizan Ahmad Khichi (FAK). Access 50+ Premium Tools, OSINT, AI Studio, Hacking Scripts, and Free Hosting. The official Developer FAK Hub.">
+    <meta name="keywords" content="FAK, FAK OFFICIAL, Faizan Khichi, Faizan Ahmad Khichi, FAK Tools, FAK Toolkit, No 1 Hacking Toolkit, No 1 AI Tools Collection, Khichi, Developer FAK, OSINT Tools, Free Cloud Hosting, Cyber Security Tools, Whatsapp Bot">
+    <meta name="author" content="Faizan Ahmad Khichi">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://faizan-khichi.pages.dev/">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="./fav.png">
+    <link rel="apple-touch-icon" href="./fav.png">
+
+    <!-- SOCIAL & OPEN GRAPH -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://faizan-khichi.pages.dev/">
+    <meta property="og:site_name" content="FAK OFFICIAL">
+    <meta property="og:title" content="FAK OFFICIAL ⫷Hack the Future⫸ by Faizan Khichi">
+    <meta property="og:description" content="The Ultimate Developer Toolkit. 50+ Tools, AI, and Hacking Scripts for free.">
+    <meta property="og:image" content="./fav.png">
+    
+    <!-- PERFORMANCE PRELOADS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://free-fak-default-rtdb.firebaseio.com">
+    
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- Critical CSS for Skeleton Loading -->
+    <style>
+        .skeleton { background: #e0e0e0; border-radius: 12px; animation: pulse 1.5s infinite; }
+        .skeleton-text { height: 12px; margin-top: 8px; border-radius: 4px; width: 60%; margin-left: auto; margin-right: auto; }
+        .skeleton-icon { width: 50px; height: 50px; border-radius: 10px; margin: 0 auto; }
+        @keyframes pulse { 0% { opacity: 0.6; } 50% { opacity: 1; } 100% { opacity: 0.6; } }
+        [data-bs-theme="dark"] .skeleton { background: #27272a; }
+    </style>
+</head>
+<body>
+
+    <!-- ANIMATED BACKGROUND -->
+    <div id="bg-animation"></div>
+
+    <!-- THE HOOK -->
+    <div class="top-hook">
+        <span>🚀 <strong>FAK OFFICIAL:</strong> The #1 Cyber Toolkit & AI Hub.</span>
+    </div>
+
+    <!-- HEADER -->
+    <header class="glass-header">
+        <div class="container-fluid px-3 d-flex justify-content-between align-items-center">
+            <!-- Brand -->
+            <a href="./index.html" class="d-flex align-items-center text-decoration-none" aria-label="FAK Home">
+                <img id="header-logo" src="./fav.png" alt="FAK Logo" class="brand-logo" width="38" height="38">
+                <span class="brand-text d-none d-sm-block">⫷𝐅𝐀𝐊 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋⫸</span>
+                <span class="brand-text d-block d-sm-none">FAK</span>
+            </a>
+
+            <!-- Controls -->
+            <div class="d-flex align-items-center gap-2">
+                <button id="theme-toggle" class="btn btn-icon-only" aria-label="Switch Theme">
+                    <i class="bi bi-sun-fill" id="theme-icon"></i>
+                </button>
+                <a href="https://whatsapp.com/channel/0029Vb2y2umF6sn16F6Zm20k" target="_blank" class="btn btn-dark rounded-pill fw-bold btn-sm px-3" aria-label="Join Whatsapp">
+                    <i class="bi bi-whatsapp"></i> <span class="d-none d-md-inline ms-1">Channel</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container-fluid px-2 px-md-4 py-4">
+        
+        <!-- HERO SECTION -->
+        <div class="text-center hero-section fade-in-up">
+            <h1 class="display-5 fw-bold mb-2">Hack the <span class="text-gradient">Future.</span></h1>
+            <p class="lead text-secondary mb-4">The Official FAK HUB Toolkit.</p>
+            
+            <!-- LIVE STATS PILL -->
+            <div class="stats-pill">
+                <span class="text-success blink_me">●</span> <span id="stat-live-count">...</span> Live
+                <span class="mx-2 text-muted">|</span>
+                <i class="bi bi-eye-fill text-primary me-1"></i> <span id="stat-total-views">...</span> Views
+                <span class="mx-2 text-muted">|</span>
+                <i class="bi bi-grid-fill text-secondary me-1"></i> <span id="stat-tool-count">50+</span> Tools
+            </div>
+
+            <!-- Search -->
+            <div class="search-wrapper mt-4">
+                <i class="bi bi-search search-icon"></i>
+                <input type="text" id="tool-search" class="search-input" placeholder="Search FAK tools..." autocomplete="off">
+            </div>
+        </div>
+
+        <!-- TOOLS GRID -->
+        <div id="tools-grid" class="row g-2 g-md-3 mt-3 justify-content-center">
+            
+            <!-- SKELETON LOADERS -->
+            <div class="col-4 col-md-3 col-lg-2 skeleton-card"><div class="tool-card"><div class="skeleton skeleton-icon"></div><div class="skeleton skeleton-text"></div></div></div>
+            <div class="col-4 col-md-3 col-lg-2 skeleton-card"><div class="tool-card"><div class="skeleton skeleton-icon"></div><div class="skeleton skeleton-text"></div></div></div>
+            <div class="col-4 col-md-3 col-lg-2 skeleton-card"><div class="tool-card"><div class="skeleton skeleton-icon"></div><div class="skeleton skeleton-text"></div></div></div>
+            <div class="col-4 col-md-3 col-lg-2 skeleton-card"><div class="tool-card"><div class="skeleton skeleton-icon"></div><div class="skeleton skeleton-text"></div></div></div>
+            <div class="col-4 col-md-3 col-lg-2 skeleton-card"><div class="tool-card"><div class="skeleton skeleton-icon"></div><div class="skeleton skeleton-text"></div></div></div>
+            <div class="col-4 col-md-3 col-lg-2 skeleton-card"><div class="tool-card"><div class="skeleton skeleton-icon"></div><div class="skeleton skeleton-text"></div></div></div>
+            
+        </div>
+
+        <div id="no-results" class="text-center py-5 d-none">
+            <i class="bi bi-emoji-frown fs-1 text-secondary opacity-50"></i>
+            <p class="text-secondary mt-2">No tools found.</p>
+        </div>
+
+    </main>
+
+    <!-- MUSIC SYSTEM -->
+    <div id="music-fab" class="music-fab" title="Open FAK Player" style="display: none;">
+        <i class="bi bi-music-note-beamed"></i>
+        <div class="equalizer">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div id="music-player" class="music-player-card">
+        <div class="player-header">
+            <span class="fw-bold small">FAK AUDIO</span>
+            <div class="d-flex gap-2">
+                <i class="bi bi-list" id="toggle-playlist" title="Playlist"></i>
+                <i class="bi bi-chevron-down" id="minimize-player"></i>
+            </div>
+        </div>
+        <div id="playlist-view" class="playlist-container d-none">
+            <ul id="playlist-list" class="list-group list-group-flush small"></ul>
+        </div>
+        <div class="player-body">
+            <div class="track-info text-center mb-3">
+                <h6 class="fw-bold text-truncate mb-0" id="track-name">Select Track</h6>
+                <small class="text-muted" id="track-artist">FAK Playlist</small>
+            </div>
+            <div class="progress-area" id="progress-container">
+                <div class="progress-bar-fill" id="progress-bar"></div>
+            </div>
+            <div class="controls d-flex justify-content-center align-items-center gap-3 mt-3">
+                <button class="btn-ctrl small" id="prev-btn" aria-label="Previous"><i class="bi bi-skip-backward-fill"></i></button>
+                <button class="btn-ctrl big" id="play-btn" aria-label="Play"><i class="bi bi-play-fill"></i></button>
+                <button class="btn-ctrl small" id="next-btn" aria-label="Next"><i class="bi bi-skip-forward-fill"></i></button>
+            </div>
+        </div>
+        <audio id="audio-element" preload="none"></audio>
+    </div>
+
+    <!-- SUPPORT FAB -->
+    <div class="fab-support" data-bs-toggle="modal" data-bs-target="#supportModal" title="Contact Support">
+        <i class="bi bi-chat-fill"></i>
+    </div>
+
+    <!-- SUPPORT MODAL -->
+    <div class="modal fade" id="supportModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold">Open Ticket</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <form id="support-form">
+                        <div class="form-floating mb-2">
+                            <input type="text" id="ticket-name" class="form-control rounded-3" placeholder="Name" required>
+                            <label>Your Name</label>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="email" id="ticket-email" class="form-control rounded-3" placeholder="Email" required>
+                            <label>Email Address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea id="ticket-msg" class="form-control rounded-3" style="height: 100px" placeholder="Message" required></textarea>
+                            <label>Message</label>
+                        </div>
+                        <div class="mb-3">
+                             <label class="small text-secondary mb-1">Attachment (Optional)</label>
+                             <input type="file" id="ticket-file" class="form-control form-control-sm">
+                        </div>
+                        <div class="d-grid mt-4">
+                            <button type="submit" id="ticket-submit" class="btn btn-dark btn-lg rounded-pill fw-bold">Submit Request</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ANNOUNCEMENT POPUP -->
+    <div class="modal fade" id="announceModal" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow-lg modal-glass">
+                <div class="modal-body text-center p-4">
+                    <div class="mb-3"><span class="badge rounded-pill bg-danger py-2 px-3">IMPORTANT UPDATE</span></div>
+                    <h4 class="fw-bold mb-3">Announcement</h4>
+                    <div id="announce-text" class="text-secondary mb-4"></div>
+                    <button type="button" class="btn btn-dark rounded-pill px-5 w-100 fw-bold" data-bs-dismiss="modal">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <a href="https://i-am.fak-official.workers.dev/" target="_blank" class="promo-card">
+                <div class="d-flex align-items-center justify-content-between px-3">
+                    <div>
+                        <!-- FIXED: Changed h6 to h3 for proper heading hierarchy -->
+                        <h3 class="fw-bold mb-0 text-white fs-6">PREMIUM HOSTING</h3>
+                        <small class="text-white-50">Unlimited Storage & CDN</small>
+                    </div>
+                    <i class="bi bi-cloud-lightning-fill fs-3 text-warning"></i>
+                </div>
+            </a>
+            <div class="footer-links mt-4">
+                <a href="#">Privacy</a><span class="mx-2">•</span>
+                <a href="#">Support</a><span class="mx-2">•</span>
+                <a href="https://whatsapp.com/channel/0029Vb2y2umF6sn16F6Zm20k">WhatsApp</a>
+            </div>
+            <div class="copyright-box mt-4">
+                <p class="mb-0 fw-bold">FAK OFFICIAL</p>
+                <small>&copy; <script>document.write(new Date().getFullYear())</script> Faizan Ahmad Khichi</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
