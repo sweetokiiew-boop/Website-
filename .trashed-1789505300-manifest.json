@@ -1,0 +1,27 @@
+{
+  "name": "MS TECH Toolkit",
+  "short_name": "MS TECH",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "description": "The #1 Professional Cyber Utility & AI Toolkit.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
